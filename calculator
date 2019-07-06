@@ -24,8 +24,14 @@ public class javaCalculator
         System.out.println("Please enter operation");
         operation = op.next();
 
+
         if (operation == "*");
         {
             System.out.println("your answer is" + (num1 * num2));
+}
+        if (operation == "+");
+        {
+            System.out.println("your answer is" + (num1 + num2));
+
         }
 }
